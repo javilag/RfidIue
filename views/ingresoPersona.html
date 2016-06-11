@@ -26,15 +26,16 @@
               Femenino: <input type="radio" value='Femenino' ng-model= "persona.genero">
               </label>
               <input type="text" class="form-control input-lg" placeholder="Add a Correo..." ng-model= "persona.correo">
-              <label class="form-control input-lg" >Programa: &nbsp &nbsp
-                <select name="programas" ng-model= "persona.programa">
-                    <option value="001">Ingenieria de Sistemas</option>
-                    <option value="002">Ingenieria Electronica</option>
-                    <option value="003">Tencologia de Sistemas</option>
-                    <option value="004">Psicologia</option>
-                    <option value="005">Derecho</option>
-                    <option value="006">Administracion de Negocios Internacionales</option>
-                    <option value="007">Contaduria Publica</option>
+              <label class="form-control input-lg" >
+                <select class="form-control" name="programas" ng-model= "persona.programa">
+                    <option value="001">Seleccione un programa</option>
+                    <option value="002">Ingenieria de Sistemas</option>
+                    <option value="003">Ingenieria Electronica</option>
+                    <option value="004">Tencologia de Sistemas</option>
+                    <option value="005">Psicologia</option>
+                    <option value="006">Derecho</option>
+                    <option value="007">Administracion de Negocios Internacionales</option>
+                    <option value="008">Contaduria Publica</option>
                 </select>
               </label>
               <input type="text" class="form-control input-lg" placeholder="Add a Tel..." ng-model= "persona.tel">
