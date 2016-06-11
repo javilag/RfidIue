@@ -1,5 +1,5 @@
 {
-  "name": "RFID-TDD2",
+  "name": "RfidIue",
   "version": "1.0.0",
   "scripts": {
     "start": "node ./bin/www"
