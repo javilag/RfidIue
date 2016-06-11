@@ -1,24 +1,45 @@
 {
-  "name": "Rfidiue",
+  "name": "rfidiue",
   "version": "1.0.0",
+  "description": "a web aplication for a hotpub",
+  "main": "app.js",
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.13.2",
+    "body-parser": "^1.13.3",
     "chai": "^3.5.0",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
+    "chai-http": "^2.0.1",
+    "debug": "^2.2.0",
+    "cookie-parser": "^1.3.5",
+    "expect.js": "^0.3.1",
     "expect": "^1.20.1",
-    "express": "~4.13.1",
+    "express": "^4.13.4",
     "heroku": "^0.2.0",
-    "jade": "~1.11.0",
-    "mocha": "^2.4.5",
-    "morgan": "~1.6.1",
-    "node-mocks-http": "^1.5.2",
-    "serve-favicon": "~2.3.0"
+    "jade": "^1.11.0",
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0"
   },
   "engines": {
     "node": "4.4.4"
-  }
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javilag/RfidIue.git"
+  },
+  "keywords": [
+    "rfid"
+  ],
+  "author": "PooHotPub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javilag/RfidIue/issues"
+  },
+  "homepage": "https://github.com/javilag/RfidIue#readme"
 }
